@@ -1,0 +1,19 @@
+{
+  "name": "carpool-challenge",
+  "version": "1.0.0",
+  "description": "Sandbox @ Northeastern Caterpillar Challenge solution",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "tsx src/solve.test.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
